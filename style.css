@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100vw;
+    height: 100vh;   
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.tinderScreen{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+.menu{
+    height: 100%;
+}
+.menuHeader{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-image: linear-gradient(to right,#FF7854,#FD2670);
+    
+    
+    
+}
+
+.menuHeader div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.menuLogo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+.handbagLogo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.shieldLogo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.handbag_and_shield{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.tabs{
+    display: flex;
+    flex-direction: row;
+    
+    padding: 10px;
+    
+    
+}
+
+.mensagensParagraph{
+    padding-left: 20px; 
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+.matchesParagraph{
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid #FD2670; 
+}
+
+.menuContent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px; 
+    
+}
+
+.menuRectangle{
+    width: 100px;
+    height: 150px;
+    background-image: linear-gradient(to right,#FF7854,#FD2670);
+    border-radius: 10px;
+}
+
+.footerIcons{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.profile{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(241, 235, 235)
+    
+}
+
+.profileContent{
+    position:relative;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.profileContent_picture_and_text{
+    background-image: url(picture.png);
+    background-repeat:no-repeat;
+    background-position:center; 
+    height: 400px;
+    width: 380px;
+    border-radius: 10px;
+}
+.profileContent_picture{
+    height: 400px;
+    width: 380px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.profileName_and_age{
+    display: flex;
+    margin-top: 300px;
+}
+
+.profileActivity{
+    display: flex;
+    margin-top: 310px;
+}
+.profileInformation{
+    display: flex;
+    margin-top: 320px;
+}
+
+.profileInteraction{
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    border-radius: 10px;
+    background-color: black;
+    justify-content: space-around;
+    padding:30px;
+
+}
+
+.profileName_and_age{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.footerIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 170px;
+}
+
+
+
